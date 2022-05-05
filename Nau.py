@@ -15,8 +15,12 @@ class Nau:
         self.y=self.y+self.incr
         
     def moure_avall(self):
-        self.y=self.y-self.incr    
+        self.y=self.y-self.incr
         
     def mostrar_nau(self):
         print(f"[{self.x},{self.y}]")
 
+    def pintar(self):
+        print(' **')
+        print('*  *')
+        print('****')
